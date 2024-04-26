@@ -1,0 +1,5 @@
+The process_numbers function takes an input file name as input.
+It reads the contents of the input file, splits them into a list of strings representing numbers, and converts them to integers.
+It separates the integers into two lists: even_numbers and odd_numbers.
+It computes the squares of even numbers and cubes of odd numbers.
+It writes the squares to a file named "double.txt" and the cubes to a file named "triple.txt".
