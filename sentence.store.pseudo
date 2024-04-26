@@ -1,1 +1,10 @@
-
+Define a function write_to_file(sentence, choice):
+Open "mylife.txt" for appending.
+Based on the choice:
+If choice is 'yes', write the sentence to the file and return True.
+If choice is 'no', print a message and return False.
+If choice is neither 'yes' nor 'no', print a message and return False.
+Initialize continue_writing to True.
+Start a loop:
+Prompt the user for a sentence and a choice.
+Check if the script is run as the main program and call main.
