@@ -1,1 +1,8 @@
-Open "numbers.txt" for reading
+# Open "numbers.txt" for reading
+# Read the contents of "numbers.txt" into a list of integers.
+# Create two empty lists: one for even numbers and one for odd numbers.
+# Iterate through the list of integers:
+# If the number is even, add it to the list of even numbers.
+# If the number is odd, add it to the list of odd numbers.
+# Open a new file named "even.txt" for writing.
+# Open a new file named "odd.txt" for writing.
