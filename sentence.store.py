@@ -13,3 +13,12 @@ def write_to_file(sentence, choice):
             print("Invalid choice. Please enter 'yes' or 'no'.")
             return False
 
+def main():
+    continue_writing = True
+    while continue_writing:
+        sentence = input("Enter a sentence to write to mylife.txt: ")
+        choice = input("Do you want to continue writing to mylife.txt? (yes/no): ")
+        continue_writing = write_to_file(sentence, choice)
+
+if __name__ == "__main__":
+    main()
