@@ -1,0 +1,3 @@
+The process_numbers function takes an input file name as input.
+It reads the contents of the input file, splits them into a list of strings representing numbers, and converts them to integers.
+It separates
