@@ -1,3 +1,5 @@
  # Read student names and GWAs from file
  # Extract names and GWAs into separate lists
- 
+ # Check if any data was extracted
+ # Find the index of the student with the highest GWA
+ # Output the name and GWA of the student with the highest GWA
