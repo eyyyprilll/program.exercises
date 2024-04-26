@@ -6,3 +6,5 @@ def main():
     except FileNotFoundError:
         print("File 'numbers.txt' not found.")
         return
+# Convert lines to integers
+    numbers = [int(num.strip()) for num in numbers]
